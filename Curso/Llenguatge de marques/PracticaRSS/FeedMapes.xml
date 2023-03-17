@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Zones del Parc</title>
+    <link>https://www.portaventuraworld.com/ca/zones</link>
+    <description>Informació sobre les zones de PortAventura World</description>
+    <language>ca</language>
+    <lastBuildDate>Fri, 17 Feb 2023 12:00:00 GMT</lastBuildDate>
+    <managingEditor>dalcazar@alumnat.copernic.cat</managingEditor>
+    <item>
+      <title>Zona Mediterrània</title>
+      <link>https://www.portaventuraworld.com/ca/portaventura/mediterrania</link>
+      <description><![CDATA[
+        <p>Inspirada en un poble de pescadors, acull diversió i tradició en la mateixa mesura.</p>
+        <p>Deixa’t seduir pel clima càlid, la gent agradable i el bon menjar del litoral mediterrani.</p>
+      ]]></description>
+      <enclosure url="https://www.portaventuraworld.com/ca/portaventura/mediterrania" length="122442" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zona Far West</title>
+      <link>https://www.portaventuraworld.com/ca/portaventura/far-west</link>
+      <description><![CDATA[
+        <p>Experimenta com un autèntic vaquer de l’oest llunyà a l’àrea de Far West, inspirada en la cultura nord-americana.</p>
+        <p>Viatja a un poble perdut de l’oest llunyà.</p>
+      ]]></description>
+      <enclosure url="https://www.portaventuraworld.com/ca/portaventura/far-west" length="102345" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zona Polynesia</title>
+      <link>https://www.portaventuraworld.com/ca/portaventura/polynesia</link>
+      <description><![CDATA[
+        <p>Explora-la i gaudeix de les experiències més divertides i exòtiques de la jungla, i d’atraccions plenes d’emocions.</p>
+        <p>Sent al cos la fúria d’un volcà en erupció, resisteix les tempestes més ferotges de la jungla i viu un munt d’emocions a les terres de l’oceà Pacífic.</p>
+        ]]></description>
+        <enclosure url="https://www.portaventuraworld.com/ca/portaventura/polynesia" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zona Xina</title>
+      <link>https://www.portaventuraworld.com/ca/portaventura/china</link>
+      <description><![CDATA[
+        <p>Viu en primera persona les experiències més impressionants a Shambhala o al temible Dragon Khan.</p>
+        <p> Entra a totes les botigues, assaboreix els plats dels restaurants fabulosos que hi ha, emociona’t amb els espectacles i diverteix-te com mai a les atraccions.</p>
+        ]]></description>
+        <enclosure url="https://www.portaventuraworld.com/ca/portaventura/china" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>  
+</rss>

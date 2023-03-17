@@ -1,0 +1,84 @@
+
+*{
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: block;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.785);
+  border-bottom: solid 7px;
+  }
+
+ header img{
+    float: left;
+    position: relative;
+    bottom: 70px;
+  }
+  header li{
+    display: inline;
+    float: center;
+    margin-left: 70px;
+  }
+  header ul{
+    display: inline;
+  }
+  header a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 7px;
+  }
+  header a:hover{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 5px;
+    background-color: rgba(2, 2, 2, 0.478);
+    color: white;
+  }
+  header nav{
+    font-family: Verdana;
+    font-weight: bold;
+    height: 60px;
+  }
+  
+  body{
+    background-color: rgba(2, 2, 2, 0.478);
+  }
+
+footer{
+  display: flex;
+  justify-content: end;      /*esto lo centra en vertical */
+  align-items: center;          /*lo centra en horizontal */  
+  border-top: solid 4px black;
+  margin: 0px;
+  margin-top: 400px;
+  background-color: aliceblue;
+}
+footer div{
+  margin-top: 15px;
+  width: 49%;
+}
+footer li{
+  font-size: 17px;
+  list-style: none;  /*deja por defecto la lista */
+}
+footer img{
+width: 100px;
+}
+footer a:hover{
+  border-radius: 5px;
+  background-color: rgba(2, 2, 2, 0.478);
+  color: rgb(255, 255, 255);
+}
+footer a{   
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  padding: 2px;
+}

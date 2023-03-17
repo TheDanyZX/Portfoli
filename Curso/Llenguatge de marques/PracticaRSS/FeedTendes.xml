@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Feed d'informació de botigues del Parc</title>
+    <link>https://www.portaventuraworld.com/ca/botigues</link>
+    <description>Feed amb informació de 4 botigues que pertanyen a zones diferents</description>
+    <language>ca</language>
+    <lastBuildDate>Fri, 17 Feb 2023 12:00:00 GMT</lastBuildDate>
+    <managingEditor>dalcazar@alumnat.copernic.cat</managingEditor>
+    <category>Botigues</category>
+    <item>
+      <title>Cal Caramel</title>
+      <link>https://www.portaventuraworld.com/ca/botigues/dolcos-mes</link>
+      <description><![CDATA[
+        <p>Alguna vegada has somiat en un món de dolços i llaminadures? Doncs és ben real!</p>
+        <p>A Cal Caramel hi trobaràs un assortiment tan gran de llaminadures que no sabràs quines triar.</p>
+      ]]></description>
+      <category>Zona Mediterrània</category>
+      <category>Llaminadures</category>
+      <category></category>
+      <enclosure url="https://www.portaventuraworld.com/ca/botigues/dolcos-mes" length="122442" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Superdry</title>
+      <link>https://www.portaventuraworld.com/ca/botigues/surf-paradise</link>
+      <description><![CDATA[
+        <p>A PortAventura World també hi ha lloc per a la moda i les compres!</p>
+        <p>A la botiga Superdry hi ha la roba més cool del moment: samarretes, polos, pantalons, motxilles… Busquis el que busquis, aquí ho trobaràs!</p>
+      ]]></description>
+      <category>Zona Polynesia</category>
+      <category>Tenda de golosines</category>
+      <enclosure url="https://www.portaventuraworld.com/ca/botigues/surf-paradise" length="102345" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChikiTienda</title>
+      <link>https://www.portaventuraworld.com/ca/botigues/chikitienda</link>
+      <description><![CDATA[
+        <p>T’agraden els personatges de Sesame Street? Aquí hi trobaràs articles seus, des de peluixos adorables de l’Elmo o en Cookie Monster fins a samarretes de l’Epi i en Blai. I encara hi ha més coses!</p>
+        ]]></description>
+        <category>Sésamo Aventura</category>
+        <category>Souvenirs</category>
+        <enclosure url="https://www.portaventuraworld.com/ca/botigues/chikitienda" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fotografía El Diablo - Tren la Mina</title>
+      <link>https://www.portaventuraworld.com/ca/botigues/fotografia-el-diablo-tren-de-la-mina</link>
+      <description><![CDATA[
+        <p>El Tren de la Mina passa molt ràpid, però ara te’l pots emportar per sempre en forma de fotografia i reviure cada revolt, cada rialla i cada emoció viscuts en aquesta atracció, a tota velocitat i acompanyat de la família o els amics.</p>
+        ]]></description>
+        <category>México</category>
+        <category>Fotografia</category>
+        <enclosure url="https://www.portaventuraworld.com/ca/botigues/fotografia-el-diablo-tren-de-la-mina" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>  
+</rss>

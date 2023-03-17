@@ -1,0 +1,456 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tokio2020">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="edicio" type="xs:unsignedByte" />
+        <xs:element name="pais" type="xs:string" />
+        <xs:element name="link_web" type="xs:string" />
+        <xs:element name="participants" type="xs:string" />
+        <xs:element name="dates" type="xs:string" />
+        <xs:element name="seus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no_disputades">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="seuNO1" type="xs:string" />
+                    <xs:element name="seuNO2" type="xs:string" />
+                    <xs:element name="seuNO3" type="xs:string" />
+                    <xs:element name="seuNO4" type="xs:string" />
+                    <xs:element name="seuNO5" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="disputades">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CentreDeGimnasiaAriake">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe" type="xs:string" />
+                                      <xs:element name="medalles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalla1" type="xs:string" />
+                                            <xs:element name="medalla2" type="xs:string" />
+                                            <xs:element name="medalla3" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PlaçaEsportivaMusashinoForest">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="SaitamaSuperArena">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CentreAcuàticTokio">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ParcEsportiuAriake">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PabellóA_MakuhariMesse">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Port_Recreatiu_Enoshima">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="GimnàsMetropolitàDeTokyo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ciutat" type="xs:string" />
+                          <xs:element name="capacitat" type="xs:unsignedShort" />
+                          <xs:element name="esport">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nom" type="xs:string" />
+                                <xs:element name="any_primer_cop" type="xs:unsignedShort" />
+                                <xs:element name="data_inici" type="xs:string" />
+                                <xs:element name="data_fin" type="xs:string" />
+                                <xs:element name="categories">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="nom" type="xs:string" />
+                                      <xs:element name="sexe_masculi">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="sexe_femeni">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="medalles">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="medalla1" type="xs:string" />
+                                                  <xs:element name="medalla2" type="xs:string" />
+                                                  <xs:element name="medalla3" type="xs:string" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

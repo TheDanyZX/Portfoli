@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="/">
+    <html>
+      <header>
+        <title><xsl:value-of select="/parc/@nom" /></title>
+      </header>
+      <body>
+        <h1><xsl:value-of select="/parc/@nom" /></h1>
+        <img src="<xsl:value-of select="/parc/@logo" />" alt="Logo del parc" />
+        <p><strong>Dirección:</strong> <xsl:value-of select="/parc/adreca" />, <xsl:value-of select="/parc/ciutat" />, <xsl:value-of select="/parc/pais" /></p>
+        <p><strong>Página web:</strong> <a href="<xsl:value-of select="/parc/paginaWeb" />"><xsl:value-of select="/parc/paginaWeb" /></a></p>
+        <p><strong>Fecha de apertura:</strong> <xsl:value-of select="/parc/dates/dataObertura" /></p>
+        <p><strong>Fecha de cierre:</strong> <xsl:value-of select="/parc/dates/dataTancament" /></p>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
+<table>
+<tr>
+    <xsl:for-each select ="parc/horari/mes/[@nom='Juliol']/periode/diaSetmana"></select>
+<td>
+    <xsl:value-of select="periode/diaSetmana"/>
+
+</td>
+</xsl:for-each>
+</tr>
+
+<xsl:for-each select ="parc/horaris/mes/[@nom='Novembre']/periode"></xsl:for-each>
+<tr>
+    <xsl:for-each select = "diaSetmana"></select>
+    <td>
+        <xsl:choose>
+            <xsl:when test = "@horaObertura and @horaTancament">
+                <xsl:value-of select = "@horaObertura"></xsl:value-of>
+            </xsl:when>
+            <xsl:otherwise>
+            </xsl:otherwise>
+        </xsl:choose>
+    </td>

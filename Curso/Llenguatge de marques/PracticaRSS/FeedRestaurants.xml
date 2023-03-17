@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Feed d'informació de restsaurants del Parc</title>
+    <link>https://www.portaventuraworld.com/ca/restaurants</link>
+    <description>Feed amb informació de 4 restaurants que pertanyen a zones diferents</description>
+    <language>ca</language>
+    <lastBuildDate>Fri, 17 Feb 2023 12:00:00 GMT</lastBuildDate>
+    <managingEditor>dalcazar@alumnat.copernic.cat</managingEditor>
+    <category>Restaurants</category>
+    <item>
+      <title>Restaurant La Hacienda</title>
+      <link>https://www.portaventuraworld.com/ca/restaurants/hacienda-el-charro</link>
+      <description><![CDATA[
+        <p>Descobreix la gastronomia mexicana en un ambient acollidor i exòtic. El Restaurant La Hacienda ofereix una àmplia varietat de plats típics, des de les famoses fajitas fins als suculents tacos.</p>
+        <p>Els comensals poden gaudir d'una decoració autèntica i tradicional, tant en el menjador interior com en la terrassa exterior.</p>
+      ]]></description>
+      <category>Zona México</category>
+      <category>Cuina mexicana: nachos, fajitas, tacos...</category>
+      <enclosure url="https://www.portaventuraworld.com/ca/restaurants/hacienda-el-charro" length="122442" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sichuan</title>
+      <link>https://www.portaventuraworld.com/ca/restaurants/sichuan</link>
+      <description><![CDATA[
+        <p>La gastronomia xinesa és tan sorprenent com el seu país de procedència. Plena de colors i aromes apassionants que delecten el paladar.</p>
+        <p>A Sichuan, et portem el millor de l’Àsia Oriental a PortAventura Park: arròs, rotlles de primavera, amanides… Deixa’t sorprendre.</p>
+      ]]></description>
+      <category>Zona Xina</category>
+      <category>Cuina asiàtica, amanides i postres</category>
+      <enclosure url="https://www.portaventuraworld.com/ca/restaurants/sichuan" length="102345" type="image/jpeg" />
+      <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>La Cocina de Epi</title>
+      <link>https://www.portaventuraworld.com/ca/restaurants/la-cocina-de-epi</link>
+      <description><![CDATA[
+        <p>Coneixies les habilitats culinàries de l’Epi? Segur que no. Doncs va ser a PortAventura on va decidir obrir el seu restaurant de pizzes, pasta, hamburgueses, pollastre i amanides.</p>
+        <p>Potser és el primer de molts altres restaurants i es convertirà en una gran estrella de la gastronomia.</p>
+        ]]></description>
+        <category>Sésamo Aventura</category>
+        <category>Pizza, pasta, hamburgueses, pollastre, amanides</category>
+        <enclosure url="https://www.portaventuraworld.com/ca/restaurants/la-cocina-de-epi" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bora Bora</title>
+      <link>https://www.portaventuraworld.com/ca/restaurants/bora-bora</link>
+      <description><![CDATA[
+        <p>Al nou restaurant d’autoservei Bora Bora t’hi espera una oferta gastronòmica insòlita, amb aliments d’origen vegetal com ara fruita, verdura, llegums, cereals, llavors i fruita seca.</p>
+        ]]></description>
+        <category>Polynesia</category>
+        <category>Poke bowls , amanides, opcions vegetarianes i flexivegetarianes</category>
+        <enclosure url="https://www.portaventuraworld.com/ca/restaurants/bora-bora" length="102345" type="image/jpeg" />
+        <pubDate>Fri, 17 Feb 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>  
+</rss>
